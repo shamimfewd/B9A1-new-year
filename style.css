@@ -129,7 +129,7 @@ line-height: 30px;
    font-size: 18px;
    font-weight: 500;
    padding: 10px 15px;
-   border-radius: 2px;
+   border-radius: 5px;
    margin: 20px;
     }
     
@@ -139,3 +139,43 @@ line-height: 30px;
 
   }
   
+  /* styles for address section */
+
+  .address_section {
+    margin-top: 100px;
+    max-width: 1320px;
+  }
+
+  .address_content {
+   margin: 0 50px;
+    background-color: #FFF4F4;
+    text-align: center;
+    padding: 100px;
+    border-radius: 10px;
+  }
+
+
+  .address_content p{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 700px;
+    font-family: "Inter", sans-serif;
+    
+   }
+
+   .address_content p > span{
+   color: #f00;
+   }
+
+   .address_content button{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #f00;
+    font-family: "Inter", sans-serif;
+    margin-top: 20px;
+   }
