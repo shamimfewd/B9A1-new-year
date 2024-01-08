@@ -4,32 +4,38 @@
   font-family: sans-serif;
 }
 
+button {
+  cursor: pointer;
+  border: none;
+}
+
 header {
   max-width: 1320px;
   margin: 0 auto;
 }
 
 .banner {
-  height: 500px;
+  height: 600px;
   background-image: linear-gradient(#070211, #07021100),
     url("images/Banner_Image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin: 30px 70px;
+  margin: 30px 50px;
   position: relative;
   border-radius: 10px;
 }
 
-.banner h3 {
+.banner h4 {
   position: absolute;
   text-align: center;
   color: #fff;
   left: 36%;
-  top: 20%;
+  top: 26%;
   transform: translateX(-50%, -50%);
-  font-size: 30px;
+  font-size: 24px;
   padding-bottom: 20px;
+  font-family: "Merriweather", serif;
 }
 
 .banner h1 {
@@ -37,17 +43,17 @@ header {
   color: #fff;
   font-size: 70px;
   position: absolute;
-  top: 30%;
+  top: 38%;
   left: 23%;
   transform: translateX(-50%, -50%) !important;
-  font-family: "Merriweather", serif;
   line-height: 90px;
   font-weight: 900;
+  font-family: "Merriweather", serif;
 }
 
-/* style for offer section */
+/* ======styles for offer section====== */
 main {
-  max-width: 1320px !important;
+  max-width: 1320px;
   margin: 0 auto;
   margin-top: 100px;
 }
@@ -84,7 +90,7 @@ main {
   margin-bottom: 30px;
 }
 
-/* styles for welcome section */
+/* =======styles for welcome section===== */
 
 .Welcome_section {
   max-width: 1320px;
@@ -136,7 +142,7 @@ main {
   margin-right: 100px;
 }
 
-/* styles for address section */
+/*=========== styles for address section =============*/
 
 .address_section {
   margin-top: 100px;
@@ -175,7 +181,7 @@ main {
   margin-top: 20px;
 }
 
-/*styles for Coming Soon section */
+/*=================styles for Coming Soon section =============*/
 .coming_soon_section {
   max-width: 1320px;
   margin-top: 100px;
@@ -227,10 +233,6 @@ main {
   padding: 20px;
 }
 
-/* .coming_soon_right_text {
-  
-} */
-
 .coming_soon_right_text h3 {
   color: #f00;
   font-size: 48px;
@@ -252,7 +254,7 @@ main {
   height: 140px;
 }
 
-/* holyday sale section */
+/* ======================holyday sale section ======================*/
 
 .holyday_section {
   margin-top: 100px;
@@ -271,13 +273,14 @@ main {
 .holyday_section h3 {
   font-weight: 900;
   font-size: 48px;
-  font-family: "Inter", sans-serif;
+  font-family: "Merriweather", serif !important;
   color: #070211;
   margin-bottom: 10px;
 }
 
 .holyday_section h3 > span {
   color: #f00;
+  font-family: "Merriweather", serif;
 }
 
 .holyday_section p {
@@ -294,11 +297,10 @@ main {
 }
 
 .holyday_img_1 {
-margin-right: -350px;
-position: static;
-z-index: 55555;
+  margin-right: -350px;
+  position: static;
+  z-index: 55555;
 }
-
 
 .holyday_img_2 {
   position: absolute;
@@ -317,7 +319,6 @@ z-index: 55555;
   z-index: -555;
 }
 
-
 .holyday_img_4 {
   border-radius: 10px;
   height: 229px;
@@ -325,100 +326,94 @@ z-index: 55555;
   background-position: center;
   background-size: cover;
   margin: 0 50px;
-
 }
-
 
 /* Our Awesome Portfolio section */
 
 .awesome_portfolio_section {
   max-width: 1320px;
- 
- margin: 100px  50px 0px 50px;
+
+  margin: 100px 50px 0px 50px;
 }
 
-.awesome_portfolio_section h5{
+.awesome_portfolio_section h5 {
   font-size: 24px;
   font-family: "Inter", sans-serif;
   color: #f00;
 }
 
-.awesome_portfolio_section h3{
+.awesome_portfolio_section h3 {
   font-size: 48px;
   font-family: "Merriweather", serif;
-font-weight: 900;
+  font-weight: 900;
   color: #070211;
 }
 
-
-.awesome_portfolio_section p{
- 
+.awesome_portfolio_section p {
   font-family: "Inter", sans-serif;
-line-height: 30px;
+  line-height: 30px;
   color: #070211;
 }
 
 .awesome_portfolio_images {
   margin-top: 20px;
 }
-.awesome_portfolio_images img{
+.awesome_portfolio_images img {
   width: 380px;
   height: 400px;
   padding: 10px;
 }
 
-
 /* Subscribe Newsletter */
 
 .subscribe_newsletter {
-  background-color: #FFF2F2;
+  background-color: #fff2f2;
   max-width: 1320px;
   margin: 100px 50px 0px 50px;
   text-align: center;
   padding: 100px;
 }
-.subscribe_newsletter img{
+.subscribe_newsletter img {
   margin-bottom: 20px;
 }
 
-.subscribe_newsletter h3{
+.subscribe_newsletter h3 {
   font-size: 48px;
   font-weight: 900;
   font-family: "Merriweather", serif;
   margin-bottom: 20px;
 }
 
-.subscribe_newsletter p{
+.subscribe_newsletter p {
   font-family: "Inter", sans-serif;
   margin-bottom: 20px;
   line-height: 30px;
 }
 
-.subscribe_newsletter input[type="text"]{
+.subscribe_newsletter input[type="text"] {
   width: 400px;
- padding: 15px 20px;
- border: none;
- outline: none;
-  background-color: #FFFFFF;
+  padding: 15px 20px;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   font-size: 18px;
 }
 
-.subscribe_newsletter button{
+.subscribe_newsletter button {
   padding: 15px 30px;
- border: none;
- background-color: #f00;
- cursor: pointer;
- color: #fff;
- outline: none;
- margin-left: -6px;
- font-size: 18px;
+  border: none;
+  background-color: #f00;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  margin-left: -6px;
+  font-size: 18px;
   font-weight: 500;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
 }
-
 
 /* styles for footer */
 
@@ -437,28 +432,22 @@ footer {
   line-height: 30px;
   border-bottom: 1px solid grey;
 }
-.number_web {
- display: inline-block;
+
+.contact_info {
+  display: flex;
+  align-items: center;
+  gap: 3px;
 }
 
-
-/* .number_web p > .img_1{
-position: absolute;
-bottom: 5%;
-left: 0;
-
-} */
-
-.social_media{
-text-align: center;
-padding: 10px;
-margin: 0 50px;
-border-bottom: 1px solid grey;
-
+.social_media {
+  text-align: center;
+  padding: 10px;
+  margin: 0 50px;
+  border-bottom: 1px solid grey;
 }
 
-.social_media img{
-padding: 10px;
+.social_media img {
+  padding: 10px;
   margin-right: 20px;
 }
 
@@ -476,5 +465,5 @@ padding: 10px;
   background-color: transparent;
   outline: none;
   color: #fff;
- cursor: pointer;
+  cursor: pointer;
 }
