@@ -302,9 +302,9 @@ z-index: 55555;
 
 .holyday_img_2 {
   position: absolute;
-  left: 10%;
+  left: 8%;
   bottom: 5%;
-  width: 500px;
+  width: 700px;
 }
 
 .holyday_img_3 {
@@ -326,4 +326,43 @@ z-index: 55555;
   background-size: cover;
   margin: 0 50px;
 
+}
+
+
+/* Our Awesome Portfolio section */
+
+.awesome_portfolio_section {
+  max-width: 1320px;
+ 
+ margin: 100px  50px 0px 50px;
+}
+
+.awesome_portfolio_section h5{
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  color: #f00;
+}
+
+.awesome_portfolio_section h3{
+  font-size: 48px;
+  font-family: "Merriweather", serif;
+font-weight: 900;
+  color: #070211;
+}
+
+
+.awesome_portfolio_section p{
+ 
+  font-family: "Inter", sans-serif;
+line-height: 30px;
+  color: #070211;
+}
+
+.awesome_portfolio_images {
+  margin-top: 20px;
+}
+.awesome_portfolio_images img{
+  width: 380px;
+  height: 400px;
+  padding: 10px;
 }
