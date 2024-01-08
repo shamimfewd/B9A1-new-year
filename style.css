@@ -1,5 +1,91 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header  {
+    
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.banner {
+  
+  height: 500px;
+  background-image: linear-gradient(
+      rgba(37, 31, 27, 0.52),
+      rgba(19, 16, 15, 0.52)
+    ),
+    url("images/Banner_Image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 30px 70px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.banner h3 {
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  left: 36%;
+  top: 20%;
+  transform: translateX(-50%,-50%);
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.banner h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 70px;
+  position: absolute;
+  top: 30%;
+  left: 23%;
+  transform: translateX(-50%, -50%) !important;
+  font-family: "Merriweather", serif;
+  line-height: 90px;
+  font-weight: 900;
+}
+
+
+/* style for offer section */
+main {
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.off_section {
+    text-align: center;
+}
+
+.off_section img {
+    width: 800px;
+    height: 500px;
+}
+
+.off_section p {
+    color: #F00;
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+
+.off_section h5 {
+    color: #F00;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.off_section h3 {
+   color: #070211;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 30px;
 }
