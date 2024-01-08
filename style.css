@@ -126,6 +126,8 @@ main {
 .welcome_text p {
   line-height: 30px;
   margin-bottom: 20px;
+  color: #ffffffd3;
+  font-family: "Inter", sans-serif;
 }
 
 .welcome_text button {
@@ -135,7 +137,10 @@ main {
   font-weight: 500;
   padding: 10px 15px;
   border-radius: 5px;
-  margin: 20px;
+  color: #fff;
+  background-color: #f00;
+  font-family: "Inter", sans-serif;
+  margin-top: 20px;
 }
 
 .Welcome_section img {
@@ -214,7 +219,7 @@ main {
 }
 
 .coming_soon_left_text p {
-  color: #070211;
+  color: rgba(7, 2, 17, 0.6);
   padding-right: 50px;
   font-family: "Inter", sans-serif;
   line-height: 30px;
@@ -245,6 +250,7 @@ main {
   font-family: "Inter", sans-serif;
   line-height: 30px;
   margin-left: 50px;
+  color: rgba(7, 2, 17, 0.6);
 }
 
 .coming_soon_right_text img {
@@ -352,7 +358,7 @@ main {
 .awesome_portfolio_section p {
   font-family: "Inter", sans-serif;
   line-height: 30px;
-  color: #070211;
+  color: rgba(7, 2, 17, 0.6);
 }
 
 .awesome_portfolio_images {
@@ -364,7 +370,7 @@ main {
   padding: 10px;
 }
 
-/* Subscribe Newsletter */
+/*-----------Subscribe Newsletter */
 
 .subscribe_newsletter {
   background-color: #fff2f2;
@@ -388,6 +394,7 @@ main {
   font-family: "Inter", sans-serif;
   margin-bottom: 20px;
   line-height: 30px;
+  color: rgba(7, 2, 17, 0.6);
 }
 
 .subscribe_newsletter input[type="text"] {
@@ -457,7 +464,7 @@ footer {
   justify-content: space-between;
   margin: 0 50px;
   color: #fff;
-  padding: 20px 0;
+  padding: 20px 20px;
 }
 
 .right button {
