@@ -366,3 +366,55 @@ line-height: 30px;
   height: 400px;
   padding: 10px;
 }
+
+
+/* Subscribe Newsletter */
+
+.subscribe_newsletter {
+  background-color: #FFF2F2;
+  max-width: 1320px;
+  margin: 100px 50px 0px 50px;
+  text-align: center;
+  padding: 100px;
+}
+.subscribe_newsletter img{
+  margin-bottom: 20px;
+}
+
+.subscribe_newsletter h3{
+  font-size: 48px;
+  font-weight: 900;
+  font-family: "Merriweather", serif;
+  margin-bottom: 20px;
+}
+
+.subscribe_newsletter p{
+  font-family: "Inter", sans-serif;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+.subscribe_newsletter input[type="text"]{
+  width: 400px;
+ padding: 15px 20px;
+ border: none;
+ outline: none;
+  background-color: #FFFFFF;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  font-size: 18px;
+}
+
+.subscribe_newsletter button{
+  padding: 15px 30px;
+ border: none;
+ background-color: #f00;
+ cursor: pointer;
+ color: #fff;
+ outline: none;
+ margin-left: -6px;
+ font-size: 18px;
+  font-weight: 500;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
